@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #8E4955;
+  --on-primary: #FFFFFF;
+  --primary-container: #FFD9DD;
+  --on-primary-container: #72333E;
+  --secondary: #76565A;
+  --on-secondary: #FFFFFF;
+  --secondary-container: #FFD9DD;
+  --on-secondary-container: #5C3F43;
+  --tertiary: #785831;
+  --on-tertiary: #FFFFFF;
+  --tertiary-container: #FFDDB8;
+  --on-tertiary-container: #5E411C;
+  --error: #BA1A1A;
+  --on-error: #FFFFFF;
+  --error-container: #FFDAD6;
+  --on-error-container: #93000A;
+  --background: #FFF8F7;
+  --on-background: #22191A;
+  --surface: #FFF8F7;
+  --on-surface: #22191A;
+  --surface-variant: #F3DDDF;
+  --on-surface-variant: #524345;
+  --outline: #847374;
+  --outline-variant: #D7C1C3;
+  --shadow: #000000;
+  --scrim: #000000;
+  --inverse-surface: #382E2F;
+  --inverse-on-surface: #FEEDED;
+  --inverse-primary: #FFB2BC;
+  --surface-dim: #E7D6D7;
+  --surface-bright: #FFF8F7;
+  --surface-container-lowest: #FFFFFF;
+  --surface-container-low: #FFF0F1;
+  --surface-container: #FBEAEB;
+  --surface-container-high: #F6E4E5;
+  --surface-container-highest: #F0DEDF;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+body {
+  background: linear-gradient(-45deg, var(--primary-container), var(--tertiary-container), var(--surface-container-high), var(--secondary-container), var(--surface-bright));
+  background-size: 400% 400%;
+  animation: gradientShift 20s ease infinite;
+  min-height: 100vh;
+}
