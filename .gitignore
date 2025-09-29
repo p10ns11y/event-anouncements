@@ -9,6 +9,8 @@ node_modules
 /build
 
 /static/images
+/static/images/*
+!/static/images/.gitkeep
 
 # OS
 .DS_Store

@@ -85,10 +85,29 @@ src/
 └── app.html
 static/
 └── images/  # Family photos
+memory_bank/
+├── progress_log.md      # Chronological development log
+├── decisions_made.md    # Key architectural decisions
+├── pivots.md           # Strategy shifts and lessons learned
+├── qa_summary.md       # Questions, answers, and unresolved issues
+└── learned_from_human_dev.md  # Insights from collaboration
 ```
+
+## Memory Bank
+
+This project includes a comprehensive memory bank that documents the entire development process:
+
+- **[Progress Log](memory_bank/progress_log.md)**: Chronological record of milestones, tasks, and outcomes with timestamps.
+- **[Decisions Made](memory_bank/decisions_made.md)**: Key architectural choices with rationale, alternatives, and impact analysis.
+- **[Pivots](memory_bank/pivots.md)**: Strategy shifts, approach changes, and lessons learned from course corrections.
+- **[Q&A Summary](memory_bank/qa_summary.md)**: Questions asked, answers received, and follow-up actions.
+- **[Learned from Human Dev](memory_bank/learned_from_human_dev.md)**: Insights and impressions gained from the collaboration.
+
+The memory bank serves as both documentation and learning resource for future projects, capturing the iterative development process and problem-solving approaches.
 
 ## Notes
 
 - Images are placeholders; upload your assets to `static/images/`.
 - 3D scene is basic; expand with more Threlte features as needed.
 - For reduced motion, add media query checks.
+- See the memory bank for detailed development insights and decision rationales.
